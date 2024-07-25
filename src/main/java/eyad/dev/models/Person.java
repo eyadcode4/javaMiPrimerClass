@@ -29,7 +29,7 @@ public class Person {
         return dni;
     }
 
-    public int getBirthDay() {
+    public int getBirthYear() {
         return birthYear;
     }
 

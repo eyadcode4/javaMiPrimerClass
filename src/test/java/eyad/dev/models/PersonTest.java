@@ -31,7 +31,7 @@ public class PersonTest {
     @Test
     void testGetBirthDay() {
         Person pepa = new Person("pepa", "foo", "147852369Q", 2005, "spain", 'H');
-        assertEquals(2005, pepa.getBirthDay());
+        assertEquals(2005, pepa.getBirthYear());
     }
     @Test
     void testGetCountryBirth() {
